@@ -1,0 +1,547 @@
+{
+ "HttpStatefulClient": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp._http_stateful_client",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatefulClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatefulClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HttpStatefulClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp._stateful_client_base",
+   "module_short": "agentscope.mcp",
+   "name": "StatefulClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "StatefulClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StatefulClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp._client_base",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatefulClient"
+  }
+ ],
+ "HttpStatelessClient": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp._http_stateless_client",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HttpStatelessClient"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp._client_base",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MCPClientBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient"
+  }
+ ],
+ "Toolkit": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "example_function_level_usage": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_register_stateless_mcp": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_remove_mcp_tools": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "json.dumps": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "json",
+   "module_short": "json",
+   "name": "dumps"
+  }
+ ],
+ "os.environ": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "environ"
+  }
+ ],
+ "stateful_client": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp._http_stateful_client",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatefulClient"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatefulClient"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HttpStatefulClient"
+  }
+ ],
+ "stateless_client": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp._http_stateless_client",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HttpStatelessClient"
+  }
+ ],
+ "stateless_client.get_callable_function": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp._http_stateless_client",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient.get_callable_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "HttpStatelessClient.get_callable_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HttpStatelessClient.get_callable_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp._client_base",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase.get_callable_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.mcp",
+   "module_short": "agentscope.mcp",
+   "name": "MCPClientBase.get_callable_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MCPClientBase.get_callable_function"
+  }
+ ],
+ "toolkit": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit"
+  }
+ ],
+ "toolkit.get_json_schemas": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.get_json_schemas"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.get_json_schemas"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit.get_json_schemas"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.get_json_schemas"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.get_json_schemas"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.get_json_schemas"
+  }
+ ],
+ "toolkit.register_mcp_client": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.register_mcp_client"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.register_mcp_client"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit.register_mcp_client"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.register_mcp_client"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.register_mcp_client"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.register_mcp_client"
+  }
+ ],
+ "toolkit.remove_mcp_clients": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.remove_mcp_clients"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.remove_mcp_clients"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit.remove_mcp_clients"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.remove_mcp_clients"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.remove_mcp_clients"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.remove_mcp_clients"
+  }
+ ],
+ "toolkit.remove_tool_function": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.remove_tool_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit.remove_tool_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit.remove_tool_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.remove_tool_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.remove_tool_function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.remove_tool_function"
+  }
+ ]
+}

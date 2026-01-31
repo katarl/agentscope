@@ -1,0 +1,20 @@
+Friday: {
+    "type": "tool_use",
+    "name": "generate_response",
+    "input": {
+        "answer_as_number": 4
+    },
+    "id": "call_141cc0194a814b1d87affa"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_141cc0194a814b1d87affa",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Successfully generated response."
+        }
+    ]
+}
+Friday: The answer to 2 + 2 is 4.

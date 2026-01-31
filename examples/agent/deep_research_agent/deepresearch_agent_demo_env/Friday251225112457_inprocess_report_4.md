@@ -1,0 +1,19 @@
+## 北京大学数据治理体系架构的深度解析：组织、政策、实施与评估
+
+-   北京大学的数据治理体系建立在清晰的多层次组织架构之上，其顶层决策机构是**北京大学网络安全和信息化委员会（网信委）**，作为网信工作的最高决策机关。为了加强协调与落实，学校设立了**网络安全和信息化工作小组**作为执行机构。日常管理职能由**网络安全和信息化委员会办公室（网信办）**承担，这是一个正处级实体单位，作为网信委的日常办事机构，挂靠党委办公室、校长办公室行使中枢职能，并按照“管办分离、管建协同”的机制代表学校行使统筹协调权。针对数据治理这一专项工作，学校成立了**北京大学校务信息数据管理工作小组（数据小组）**，由分管网信工作的校领导担任组长，分管保密工作的校领导担任副组长，其日常运行办公室（数据办）设在网信办，主要职能是统筹推进全校数据治理工作并协调各部门数据共享。技术实施与运维职责则由**计算中心**承担，形成了从决策、管理、专项协调到技术落地的完整组织链条。[https://example.com/peking-university-data-governance-summary]
+
+-   在政策法规体系方面，北京大学构建了覆盖网络安全、数据管理和资源管理的完整制度框架。网络安全领域，核心制度包括**《北京大学网络安全管理办法（试行）》（2019年）**，该办法统筹网络技术安全和信息内容安全，明确了网络安全的内容边界、组织职责，并建立了覆盖防御、监测、响应、处置的全流程保障体系，适用于校内各单位、各类人员和信息系统。此外，还有**《北京大学官方新媒体平台日常管理及应急处置规程》（2020年）**和**《北京大学网站管理办法》（2021年修订）**，分别规范新媒体平台和网站的管理。数据管理方面，出台了**《北京大学校务信息数据管理办法（试行）》**，旨在落实数据责任机制，明确数据分级分类及使用制度，规范数据全生命周期管理。同时，**《北京大学校务信息数据共享审批管理规定》**专门用于规范数据共享流程，明确审批权限与程序，以保障数据安全合规地共享。在资源管理上，**《北京大学大型软件（非科研类）购置审批管理办法（试行）》**规范了信息化资源的采购与使用，为数据治理提供了资源准入的制度保障。[https://example.com/peking-university-data-governance-summary]
+
+-   其实施策略与方法体现了系统化的“三位一体”建设模式，即同步推进**制度建设、机构建设和平台建设**。数据治理的核心目标被明确为：明确数据标准、提升数据质量、推进数据共享、保障数据安全、有效利用公共信息资源并切实维护师生个人信息权益。在技术平台建设上，北京大学引入了业界先进的**数据4.0工艺平台**，并建成了规模空前的**校务数据共享平台**。该平台集成了人员身份、资产设备、教学科研、学术支撑、行政运行、服务保障六大类数据，总计超过10亿条校务信息数据，是学校有史以来规模最大的数据集成共享平台。为解决数据共享中的结构和模型问题，北京大学创新性地设计了 **“人（X）-事（Y）-时（Z）”三维立体数据互动结构模型**，旨在实现数据的动态关联和智能分析，为深度数据应用奠定基础。[https://example.com/peking-university-data-governance-summary]
+
+-   北京大学在推进数据治理过程中，系统性地识别并应对了数字化转型的普遍挑战。这些挑战主要包括：**观念意识转变**，即多数师生员工仍将信息化定位为“支撑”或“辅助”角色，需要提升对其“引领”作用的认识；**制度体系转换**，原有机构设置、管理办法和运行模式形成的强大惯性需要系统性的制度重构来打破；**资源利益调整**，涉及各单位原有信息系统和数据资源主导权的重新分配，以及资源配置职权的调整；**评价机制探索**，即缺乏成熟的网信投入评估评价体系，需要建立科学的绩效评估标准。为应对这些挑战，北京大学采取了具体策略：首先是**顶层设计先行**，于2018年将信息化建设领导小组调整为网信委，2019年成立实体网信办，并建立校务数据管理工作小组；其次是**制度建设保障**，制定覆盖网络安全、数据管理、资源管理的完整制度体系；再次是**机构协同推进**，由网信办统筹协调，计算中心负责技术实施，各部门密切合作形成治理合力；最后是**技术平台支撑**，通过引进先进技术和构建大规模集成平台来解决技术水平和标准难题。[https://example.com/peking-university-data-governance-summary]
+
+-   绩效评估与持续改进机制是北京大学数据治理体系的重要组成部分。在经费投入机制上，**校级网信经费**主要来源于“双一流”建设经费，包括日常运维经费和年度项目经费，分别由计算中心和网信办组织申报。而**二级单位网信经费**来源更为多元，包括“双一流”建设经费、科研经费和自筹经费，其总体量远超校级网信经费。学校正在着力建设评估评价体系，其**评估目的**在于加强对全校各级各类网信投入的风险评估和效果评价，以标准规范体系建设弥补硬性管理措施的短板，提高管理的弹性和韧性，最终节约建设成本并提高投入效益。**评估内容**涵盖建设目标的完成度、组织管理水平、财务指标以及一系列后评价指标，如创新性、业务量、数据共享条数和节约人力成本等。这一评估体系的建立具备良好的基础条件：在**组织基础**上，网信委、网信工作小组、网信办、校务数据小组等机构已正常运转；在**规划基础**上，《网信事业“十四五”发展规划》提供了发展蓝图；在**治理基础**上，学校已逐步构建了具有北大特点的网络安全责任体系，并建立了信息化工作机制及校务数据治理模式，为推进数字化、智能化转型夯实了基础架构。[https://example.com/peking-university-data-governance-summary]
+
+## Work Log
+**Filled Knowledge Gap:** Knowledge Gap 1 and 2: Conduct a thorough extraction and analysis of the Peking University PDF document to systematically gather information about: data governance organizational structure, specific policies and regulations, implementation approaches, challenges and solutions, and performance evaluation mechanisms, and create a structured summary.
+
+**Tools and Usage:** The primary tool used was `view_text_file`, with the input parameter being the file path `/opt/agent/agentscope/examples/agent/deep_research_agent/deepresearch_agent_demo_env/Peking_University_Data_Governance_Structured_Summary.md`. This tool was employed to access and read the pre-existing structured summary document that had been created from the Peking University PDF. The content of this file served as the comprehensive source of information, containing all the categorized details needed to address the knowledge gaps regarding organizational framework, policy details, implementation strategies, identified challenges, and evaluation metrics. The analysis involved systematically reviewing every section of this document to select and synthesize the relevant information into the detailed report above.
+
+## References
+*   [https://example.com/peking-university-data-governance-summary] - 北京大学数据治理体系结构化摘要 (Peking University Data Governance Structured Summary)

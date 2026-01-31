@@ -1,0 +1,20 @@
+Friday: {
+    "type": "tool_use",
+    "name": "generate_response",
+    "input": {
+        "answer_as_number": 73021
+    },
+    "id": "call_8648ed803e0c4d9394aeb6"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_8648ed803e0c4d9394aeb6",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Successfully generated response."
+        }
+    ]
+}
+Friday: The sum of 12345, 54321, 6789, and 9876 is 73021.

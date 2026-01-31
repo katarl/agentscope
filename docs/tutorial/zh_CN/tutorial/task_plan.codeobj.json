@@ -1,0 +1,592 @@
+{
+ "DashScopeChatFormatter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._dashscope_formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._truncated_formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  }
+ ],
+ "DashScopeChatModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._dashscope_model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_base",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  }
+ ],
+ "Plan": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_model",
+   "module_short": "agentscope.plan",
+   "name": "Plan"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "Plan"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Plan"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "Plan"
+  }
+ ],
+ "PlanNotebook": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_notebook",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "PlanNotebook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook"
+  }
+ ],
+ "ReActAgent": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent_base",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  }
+ ],
+ "SubTask": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_model",
+   "module_short": "agentscope.plan",
+   "name": "SubTask"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "SubTask"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "SubTask"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "SubTask"
+  }
+ ],
+ "agent": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "list_tools": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "manual_plan_specification": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "os.environ": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "environ"
+  }
+ ],
+ "plan_notebook": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_notebook",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "PlanNotebook"
+  }
+ ],
+ "plan_notebook.create_plan": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_notebook",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.create_plan"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.create_plan"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "PlanNotebook.create_plan"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.create_plan"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.create_plan"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.create_plan"
+  }
+ ],
+ "plan_notebook.get_current_hint": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_notebook",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.get_current_hint"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.get_current_hint"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "PlanNotebook.get_current_hint"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.get_current_hint"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.get_current_hint"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.get_current_hint"
+  }
+ ],
+ "plan_notebook.list_tools": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan._plan_notebook",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.list_tools"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.plan",
+   "module_short": "agentscope.plan",
+   "name": "PlanNotebook.list_tools"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "PlanNotebook.list_tools"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.list_tools"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.list_tools"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.list_tools"
+  }
+ ]
+}

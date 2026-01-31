@@ -1,0 +1,65 @@
+{
+    "total_tasks": 2,
+    "total_repeats": 1,
+    "total_stats": {
+        "llm": {
+            "qwen-max": 4
+        },
+        "agent": 2,
+        "tool": {
+            "generate_response": 2
+        },
+        "embedding": {},
+        "chat_usage": {
+            "qwen-max": {
+                "input_tokens": 790,
+                "output_tokens": 91
+            }
+        }
+    },
+    "repeats": {
+        "0": {
+            "completed_tasks": 2,
+            "incomplete_tasks": 0,
+            "metrics": {
+                "math check number equal": {
+                    "type": "numerical",
+                    "involved_tasks": 2,
+                    "completed_tasks": 2,
+                    "incomplete_tasks": 0,
+                    "aggregation": {
+                        "mean": 0.5,
+                        "max": 1.0,
+                        "min": 0.0
+                    },
+                    "distribution": {
+                        "math_problem_1": 1.0,
+                        "math_problem_2": 0.0
+                    }
+                }
+            },
+            "completed_ids": [
+                "math_problem_1",
+                "math_problem_2"
+            ],
+            "incomplete_ids": [],
+            "stats": {
+                "llm": {
+                    "qwen-max": 4
+                },
+                "agent": 2,
+                "tool": {
+                    "generate_response": 2
+                },
+                "embedding": {},
+                "chat_usage": {
+                    "qwen-max": {
+                        "input_tokens": 790,
+                        "output_tokens": 91
+                    }
+                }
+            }
+        }
+    },
+    "schema_version": 1
+}

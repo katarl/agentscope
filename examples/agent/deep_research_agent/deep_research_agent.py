@@ -166,9 +166,8 @@ class DeepResearchAgent(ReActAgent):
         # register all necessary tools for deep research agent
         self.toolkit.register_tool_function(view_text_file)
         self.toolkit.register_tool_function(write_text_file)
-        asyncio.get_running_loop().create_task(
-            self.toolkit.register_mcp_client(search_mcp_client),
-        )
+        self.search_mcp_client = search_mcp_client
+        self._mcp_client_registered = False
 
         self.search_function = "tavily-search"
         self.extract_function = "tavily-extract"
@@ -197,7 +196,20 @@ class DeepResearchAgent(ReActAgent):
         structured_model: Type[BaseModel] | None = None,
     ) -> Msg:
         """The reply method of the agent."""
+        if not self._mcp_client_registered:
+            await self.toolkit.register_mcp_client(self.search_mcp_client)
+            self._mcp_client_registered = True
+
         # Maintain the subtask list
+        if isinstance(msg, list):
+            msg = msg[-1]
+        elif msg is None:
+            # Try to find the last user message from memory
+            msg = self.memory.get_memory()[-1]
+
+        if not isinstance(msg, Msg):
+            raise ValueError(f"Invalid message type: {type(msg)}")
+
         self.user_query = msg.get_text_content()
         self.current_subtask.append(
             SubTaskItem(objective=self.user_query),
@@ -205,9 +217,24 @@ class DeepResearchAgent(ReActAgent):
 
         # Identify the expected output and generate a plan
         await self.decompose_and_expand_subtask()
-        msg.content += (
-            f"\nExpected Output:\n{self.current_subtask[0].knowledge_gaps}"
-        )
+        
+        # Avoid modifying the original message content directly if possible,
+        # or accept that we are appending to it. 
+        # Here we append to a copy or just ensure it's safe.
+        # Since msg might be a reference, modifying it affects the caller.
+        # But for ReActAgent, we usually process the input msg.
+        # To be safe against block content, we use specific method or just text.
+        
+        # We'll create a new system message or update memory with the plan expectation
+        # instead of modifying user input directly if strictly needed, 
+        # but following the original logic's intent:
+        expected_output = f"\nExpected Output:\n{self.current_subtask[0].knowledge_gaps}"
+        
+        if isinstance(msg.content, str):
+            msg.content += expected_output
+        elif isinstance(msg.content, list):
+            # If it's a list of blocks, we append a text block
+            msg.content.append(TextBlock(type="text", text=expected_output))
 
         # Add user query message to memory
         await self.memory.add(msg)  # type: ignore
@@ -306,7 +333,10 @@ class DeepResearchAgent(ReActAgent):
         )
         update_memory = False
         intermediate_report = ""
-        chunk = ""
+        # Initialize output_content with empty string or list depending on expected type
+        # But here we mainly need it for _follow_up which expects search results (string or list)
+        output_content = "" 
+        
         try:
             # Execute the tool call
             tool_res = await self.toolkit.call_tool_function(tool_call)
@@ -317,6 +347,9 @@ class DeepResearchAgent(ReActAgent):
                 tool_res_msg.content[0][  # type: ignore[index]
                     "output"
                 ] = chunk.content
+                
+                # Update output_content to keep track of the latest content
+                output_content = chunk.content
 
                 # Skip the printing of the finish function call
                 if (
@@ -361,6 +394,8 @@ class DeepResearchAgent(ReActAgent):
                         tool_res_msg.content[0]["output"],
                         self.max_tool_results_words,
                     )
+                    # Update output_content after truncation
+                    output_content = tool_res_msg.content[0]["output"]
 
                 # Update memory when an intermediate report is generated
                 if isinstance(chunk.metadata, dict) and chunk.metadata.get(
@@ -378,8 +413,9 @@ class DeepResearchAgent(ReActAgent):
                 self.intermediate_memory.append(tool_res_msg)
 
             # Read more information from the web page if necessary
-            if tool_call["name"] == self.search_function:
-                extract_res = await self._follow_up(chunk.content, tool_call)
+            # Only proceed if we have valid output content
+            if tool_call["name"] == self.search_function and output_content:
+                extract_res = await self._follow_up(output_content, tool_call)
                 if isinstance(
                     extract_res.metadata,
                     dict,
@@ -720,6 +756,15 @@ class DeepResearchAgent(ReActAgent):
                 ],
             )
 
+    def _blocks_to_text(self, blocks: Any) -> str:
+        if not isinstance(blocks, list):
+            return str(blocks)
+        text_parts: list[str] = []
+        for block in blocks:
+            if isinstance(block, dict) and isinstance(block.get("text"), str):
+                text_parts.append(block["text"])
+        return "\n".join(text_parts) if text_parts else str(blocks)
+
     async def summarize_intermediate_results(self) -> ToolResponse:
         """Summarize the intermediate results into a report when a step
         in working plan is completed.
@@ -754,9 +799,7 @@ class DeepResearchAgent(ReActAgent):
                 ],
                 stream=self.model.stream,
             )
-            self.current_subtask[-1].working_plan = blocks[0][
-                "text"
-            ]  # type: ignore[index]
+            self.current_subtask[-1].working_plan = self._blocks_to_text(blocks)
         report_prefix = "#" * len(self.current_subtask)
         summarize_sys_prompt = self.prompt_dict[
             "summarize_sys_prompt"
@@ -786,6 +829,14 @@ class DeepResearchAgent(ReActAgent):
                 "tool_result": tool_result,
             },
         )
+        
+        # P1 Optimization: Enforce structured citation output
+        summarize_instruction += (
+            "\n\nConstraint: You must strictly follow the 'Evidence -> Statement' format. "
+            "Use footnote citations in the text, e.g., '... statement [^1].'. "
+            "At the end of the report, include a '## References' section listing all used sources in APA format. "
+            "Do not fabricate citations."
+        )
 
         blocks = await self.get_model_output(
             msgs=[
@@ -794,9 +845,12 @@ class DeepResearchAgent(ReActAgent):
             ],
             stream=self.model.stream,
         )
-        intermediate_report = blocks[0]["text"]  # type: ignore[index]
+        intermediate_report = self._blocks_to_text(blocks)
 
         # Write the intermediate report
+        if not os.path.exists(self.tmp_file_storage_dir):
+            os.makedirs(self.tmp_file_storage_dir, exist_ok=True)
+            
         intermediate_report_path = os.path.join(
             self.tmp_file_storage_dir,
             f"{self.report_path_based}_"
@@ -860,22 +914,34 @@ class DeepResearchAgent(ReActAgent):
                 The expected output items of the original task.
         """
         reporting_sys_prompt = self.prompt_dict["reporting_sys_prompt"]
-        reporting_sys_prompt.format_map(
+        reporting_sys_prompt = reporting_sys_prompt.format_map(
             {
                 "original_task": self.user_query,
                 "checklist": checklist,
             },
         )
+        # P1 Optimization: Enforce structured citation output in final report
+        reporting_sys_prompt += (
+            "\n\nConstraint: You must strictly follow the 'Evidence -> Statement' format. "
+            "Use footnote citations in the text, e.g., '... statement [^1].'. "
+            "At the end of the report, include a '## References' section listing all used sources in APA format. "
+            "Ensure the report is factual and fully supported by the provided draft reports."
+        )
 
         # Collect all intermediate reports
         if self.report_index > 1:
             inprocess_report = ""
-            for index in range(self.report_index):
+            # Fix: self.report_index is already incremented after writing the report
+            # So if we wrote 2 reports, index is 3. We want range(1, 3) or range(2) if 0-based.
+            # File names are 1-based: report_1, report_2.
+            # If report_index is 3, we have report_1 and report_2.
+            # range(1, self.report_index) gives 1, 2.
+            for index in range(1, self.report_index):
                 params = {
                     "file_path": os.path.join(
                         self.tmp_file_storage_dir,
                         f"{self.report_path_based}_"
-                        f"inprocess_report_{index + 1}.md",
+                        f"inprocess_report_{index}.md",
                     ),
                 }
                 _, read_draft_tool_res_msg = await self.call_specific_tool(
@@ -912,7 +978,41 @@ class DeepResearchAgent(ReActAgent):
             msgs=msgs,
             stream=self.model.stream,
         )
-        final_report_content = blocks[0]["text"]  # type: ignore[index]
+        final_report_content = self._blocks_to_text(blocks)
+        
+        # P1 Optimization: Lightweight consistency self-check loop
+        max_retries = 1
+        for _ in range(max_retries):
+            # Heuristic: Check if paragraphs have citations
+            paragraphs = [p for p in final_report_content.split('\n\n') if len(p.strip()) > 50]
+            if not paragraphs:
+                break
+                
+            cited_paragraphs = [p for p in paragraphs if "[" in p]
+            coverage = len(cited_paragraphs) / len(paragraphs)
+            
+            if coverage < 0.5: # Threshold: 50% of paragraphs should have citations
+                logger.warning(f"Citation coverage low ({coverage:.2%}), requesting refinement.")
+                feedback_msg = Msg(
+                    "user",
+                    content=(
+                        f"The generated report has low citation coverage ({coverage:.2%}). "
+                        "Please rewrite the report to ensure that at least 50% of the paragraphs contain explicit footnote citations supporting the claims. "
+                        "Do not remove information, just add the missing citations from the context."
+                    ),
+                    role="user"
+                )
+                msgs.append(Msg("assistant", content=final_report_content, role="assistant"))
+                msgs.append(feedback_msg)
+                
+                blocks = await self.get_model_output(
+                    msgs=msgs,
+                    stream=self.model.stream,
+                )
+                final_report_content = self._blocks_to_text(blocks)
+            else:
+                break
+
         logger.info(
             "The final Report is generated: %s",
             final_report_content,

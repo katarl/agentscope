@@ -1,0 +1,575 @@
+{
+ "AudioBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "AudioBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "AudioBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AudioBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "AudioBlock"
+  }
+ ],
+ "Base64Source": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "Base64Source"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Base64Source"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Base64Source"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Base64Source"
+  }
+ ],
+ "ImageBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ImageBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ImageBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ImageBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ImageBlock"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "Msg.from_dict": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg.from_dict"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg.from_dict"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg.from_dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message.Msg",
+   "module_short": "agentscope.message.Msg",
+   "name": "from_dict"
+  }
+ ],
+ "TextBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  }
+ ],
+ "ThinkingBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  }
+ ],
+ "ToolResultBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  }
+ ],
+ "ToolUseBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  }
+ ],
+ "VideoBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "VideoBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "VideoBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "VideoBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "VideoBlock"
+  }
+ ],
+ "json.dumps": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "json",
+   "module_short": "json",
+   "name": "dumps"
+  }
+ ],
+ "msg": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  }
+ ],
+ "msg.content": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "msg.name": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  }
+ ],
+ "msg.role": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  }
+ ],
+ "msg.to_dict": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg.to_dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg.to_dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg.to_dict"
+  }
+ ],
+ "msg_thinking": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  }
+ ],
+ "msg_tool_call": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  }
+ ],
+ "msg_tool_res": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  }
+ ],
+ "new_msg": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  }
+ ],
+ "new_msg.content": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "new_msg.name": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  }
+ ],
+ "new_msg.role": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  }
+ ],
+ "serialized_msg": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  }
+ ]
+}

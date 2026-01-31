@@ -1,0 +1,18 @@
+{
+ "agentscope.__version__": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "__version__"
+  }
+ ]
+}

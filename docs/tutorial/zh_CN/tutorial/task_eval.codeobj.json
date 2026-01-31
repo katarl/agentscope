@@ -1,0 +1,930 @@
+{
+ "BaseModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  }
+ ],
+ "BenchmarkBase": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._benchmark_base",
+   "module_short": "agentscope.evaluate",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "BenchmarkBase"
+  }
+ ],
+ "Callable": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "_CallableType"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "Callable"
+  }
+ ],
+ "CheckEqual": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "CheckEqual"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._metric_base",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  }
+ ],
+ "DashScopeChatFormatter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._dashscope_formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._truncated_formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  }
+ ],
+ "DashScopeChatModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._dashscope_model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_base",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  }
+ ],
+ "FileEvaluatorStorage": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator_storage._file_evaluator_storage",
+   "module_short": "agentscope.evaluate",
+   "name": "FileEvaluatorStorage"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator_storage",
+   "module_short": "agentscope.evaluate",
+   "name": "FileEvaluatorStorage"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "FileEvaluatorStorage"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FileEvaluatorStorage"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator_storage._evaluator_storage_base",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorStorageBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator_storage",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorStorageBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorStorageBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "EvaluatorStorageBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "FileEvaluatorStorage"
+  }
+ ],
+ "GeneralEvaluator": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator._general_evaluator",
+   "module_short": "agentscope.evaluate",
+   "name": "GeneralEvaluator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator",
+   "module_short": "agentscope.evaluate",
+   "name": "GeneralEvaluator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "GeneralEvaluator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "GeneralEvaluator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator._evaluator_base",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._evaluator",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "EvaluatorBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "EvaluatorBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "GeneralEvaluator"
+  }
+ ],
+ "Generator": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "_SpecialGenericAlias"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "Generator"
+  }
+ ],
+ "MetricBase": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._metric_base",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MetricBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricBase"
+  }
+ ],
+ "MetricResult": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._metric_base",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricResult"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricResult"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MetricResult"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils._mixin",
+   "module_short": "agentscope._utils._mixin",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils",
+   "module_short": "agentscope._utils",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricResult"
+  }
+ ],
+ "MetricType.NUMERICAL": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._metric_base",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricType"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "MetricType"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MetricType"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate.MetricType",
+   "module_short": "agentscope.evaluate.MetricType",
+   "name": "NUMERICAL"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "ReActAgent": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent_base",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  }
+ ],
+ "SolutionOutput": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._solution",
+   "module_short": "agentscope.evaluate",
+   "name": "SolutionOutput"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "SolutionOutput"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "SolutionOutput"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils._mixin",
+   "module_short": "agentscope._utils._mixin",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils",
+   "module_short": "agentscope._utils",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "SolutionOutput"
+  }
+ ],
+ "TOY_BENCHMARK": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "Task": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._task",
+   "module_short": "agentscope.evaluate",
+   "name": "Task"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "Task"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Task"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "Task"
+  }
+ ],
+ "ToyBenchAnswerFormat": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "ToyBenchAnswerFormat"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  }
+ ],
+ "ToyBenchmark": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "ToyBenchmark"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate._benchmark_base",
+   "module_short": "agentscope.evaluate",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.evaluate",
+   "module_short": "agentscope.evaluate",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "BenchmarkBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "main": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "os.environ.get": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "MutableMapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "MutableMapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Mapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Mapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Collection.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Collection.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Sized.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Sized.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Iterable.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Iterable.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Container.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Container.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os.environ",
+   "module_short": "os.environ",
+   "name": "get"
+  }
+ ],
+ "toy_solution_generation": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "math_problem_1",
+    "input": "What is 2 + 2?",
+    "ground_truth": 4.0,
+    "metrics": [
+        {
+            "name": "math check number equal",
+            "metric_type": "numerical",
+            "description": "Toy metric checking if two numbers are equal",
+            "categories": []
+        }
+    ],
+    "tags": {
+        "difficulty": "easy",
+        "category": "math"
+    }
+}

@@ -1,0 +1,885 @@
+{
+ "DashScopeChatFormatter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._dashscope_formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._truncated_formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeChatFormatter"
+  }
+ ],
+ "DashScopeChatModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._dashscope_model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_base",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  }
+ ],
+ "DashScopeTextEmbedding": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._dashscope_embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._embedding_base",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  }
+ ],
+ "InMemoryMemory": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory._in_memory_memory",
+   "module_short": "agentscope.memory",
+   "name": "InMemoryMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "InMemoryMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "InMemoryMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory._memory_base",
+   "module_short": "agentscope.memory",
+   "name": "MemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "MemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "InMemoryMemory"
+  }
+ ],
+ "Mem0LongTermMemory": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory._mem0_long_term_memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Mem0LongTermMemory"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory._long_term_memory_base",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "LongTermMemoryBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "ReActAgent": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent_base",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  }
+ ],
+ "Toolkit": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.tool._toolkit",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Toolkit"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.tool",
+   "module_short": "agentscope.tool",
+   "name": "Toolkit"
+  }
+ ],
+ "agent": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  }
+ ],
+ "agent.memory.clear": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._in_memory_memory",
+   "module_short": "agentscope.memory",
+   "name": "InMemoryMemory.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "InMemoryMemory.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "InMemoryMemory.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._memory_base",
+   "module_short": "agentscope.memory",
+   "name": "MemoryBase.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "MemoryBase.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MemoryBase.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.clear"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.clear"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "basic_usage": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "long_term_memory": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._mem0_long_term_memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Mem0LongTermMemory"
+  }
+ ],
+ "long_term_memory.record": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._mem0_long_term_memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Mem0LongTermMemory.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._long_term_memory_base",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "LongTermMemoryBase.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.record"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.record"
+  }
+ ],
+ "long_term_memory.retrieve": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._mem0_long_term_memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "Mem0LongTermMemory.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Mem0LongTermMemory.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory._long_term_memory_base",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.memory",
+   "module_short": "agentscope.memory",
+   "name": "LongTermMemoryBase.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "LongTermMemoryBase.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.retrieve"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.retrieve"
+  }
+ ],
+ "os.environ.get": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "MutableMapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "MutableMapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Mapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Mapping.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Collection.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Collection.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Sized.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Sized.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Iterable.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Iterable.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections.abc",
+   "module_short": "collections.abc",
+   "name": "Container.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "collections",
+   "module_short": "collections",
+   "name": "Container.get"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os.environ",
+   "module_short": "os.environ",
+   "name": "get"
+  }
+ ],
+ "record_preferences": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "retrieve_preferences": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+{
+ "AgentBase": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  }
+ ],
+ "Any": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "_SpecialForm"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "typing",
+   "module_short": "typing",
+   "name": "Any"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "ReActAgentBase": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent_base",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  }
+ ],
+ "TestAgent": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "TestAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  }
+ ],
+ "TestAgent.clear_class_hooks": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "TestAgent.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.clear_class_hooks"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.clear_class_hooks"
+  }
+ ],
+ "TestAgent.register_class_hook": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "TestAgent.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.register_class_hook"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.register_class_hook"
+  }
+ ],
+ "agent": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "TestAgent"
+  }
+ ],
+ "agent.register_instance_hook": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "TestAgent.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module._state_module",
+   "name": "StateModule.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule.register_instance_hook"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule.register_instance_hook"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "cls_pre_reply_hook": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_test_hook": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "instance_pre_reply_hook": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "DashScopeMultiAgentFormatter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._dashscope_formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._truncated_formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  }
+ ],
+ "HuggingFaceTokenCounter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.token._huggingface_token_counter",
+   "module_short": "agentscope.token",
+   "name": "HuggingFaceTokenCounter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.token",
+   "module_short": "agentscope.token",
+   "name": "HuggingFaceTokenCounter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "HuggingFaceTokenCounter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.token._token_base",
+   "module_short": "agentscope.token",
+   "name": "TokenCounterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.token",
+   "module_short": "agentscope.token",
+   "name": "TokenCounterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TokenCounterBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.token",
+   "module_short": "agentscope.token",
+   "name": "HuggingFaceTokenCounter"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "TextBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  }
+ ],
+ "ToolResultBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ToolResultBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolResultBlock"
+  }
+ ],
+ "ToolUseBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "formatted_message": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "input_msgs": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "json.dumps": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "json",
+   "module_short": "json",
+   "name": "dumps"
+  }
+ ],
+ "run_formatter_example": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "run_token_counter": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ]
+}

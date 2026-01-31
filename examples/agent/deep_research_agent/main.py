@@ -3,19 +3,29 @@
 import asyncio
 import os
 
+from dotenv import load_dotenv
 from deep_research_agent import DeepResearchAgent
 
 from agentscope import logger
-from agentscope.formatter import DashScopeChatFormatter
+from agentscope.formatter import OpenAIChatFormatter
 from agentscope.memory import InMemoryMemory
-from agentscope.model import DashScopeChatModel
+from agentscope.model import OpenAIChatModel
 from agentscope.message import Msg
 from agentscope.mcp import StdIOStatefulClient
 
 
-async def main(user_query: str) -> None:
+async def main(user_query: str, use_reasoner: bool = False) -> None:
     """The main entry point for the Deep Research agent example."""
     logger.setLevel("DEBUG")
+    repo_root = os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            "..",
+            "..",
+            "..",
+        ),
+    )
+    load_dotenv(dotenv_path=os.path.join(repo_root, ".env"))
 
     tavily_search_client = StdIOStatefulClient(
         name="tavily_mcp",
@@ -36,20 +46,28 @@ async def main(user_query: str) -> None:
 
     try:
         await tavily_search_client.connect()
+        model_name = "deepseek-reasoner" if use_reasoner else "deepseek-chat"
         agent = DeepResearchAgent(
             name="Friday",
             sys_prompt="You are a helpful assistant named Friday.",
-            model=DashScopeChatModel(
-                api_key=os.environ.get("DASHSCOPE_API_KEY"),
-                model_name="qwen3-max",
-                enable_thinking=False,
+            # model=DashScopeChatModel(
+            #     api_key=os.environ.get("DASHSCOPE_API_KEY"),
+            #     model_name="qwen3-max",
+            #     enable_thinking=False,
+            #     stream=True,
+            # ),
+            model=OpenAIChatModel(
+                model_name=model_name,
+                api_key=os.getenv("DEEPSEEK_API_KEY"),
+                client_kwargs={"base_url": "https://api.deepseek.com/v1"},
+                generate_kwargs={"max_tokens": 8192}, # Modified to be within [1, 8192]
                 stream=True,
             ),
-            formatter=DashScopeChatFormatter(),
+            formatter=OpenAIChatFormatter(),
             memory=InMemoryMemory(),
             search_mcp_client=tavily_search_client,
             tmp_file_storage_dir=agent_working_dir,
-            max_tool_results_words=10000,
+            max_tool_results_words=15000,
         )
         user_name = "Bob"
         msg = Msg(
@@ -67,17 +85,18 @@ async def main(user_query: str) -> None:
 
 
 if __name__ == "__main__":
-    query = (
-        "If Eliud Kipchoge could maintain his record-making "
-        "marathon pace indefinitely, how many thousand hours "
-        "would it take him to run the distance between the "
-        "Earth and the Moon its closest approach? Please use "
-        "the minimum perigee value on the Wikipedia page for "
-        "the Moon when carrying out your calculation. Round "
-        "your result to the nearest 1000 hours and do not use "
-        "any comma separators if necessary."
-    )
     try:
-        asyncio.run(main(query))
+        query = input("请输入你的研究问题：").strip()
+        while not query:
+            query = input("请输入你的研究问题：").strip()
+
+        use_reasoner_input = input(
+            "是否启用 DeepSeek reasoner 模式？(是/否，默认否)：",
+        ).strip()
+        use_reasoner = use_reasoner_input == "是"
+
+        asyncio.run(main(query, use_reasoner=use_reasoner))
+    except KeyboardInterrupt:
+        pass
     except Exception as e:
         logger.exception(e)

@@ -1,0 +1,17 @@
+{
+    "id": "math_problem_2",
+    "input": "What is 12345 + 54321 + 6789 + 9876?",
+    "ground_truth": 83331,
+    "metrics": [
+        {
+            "name": "math check number equal",
+            "metric_type": "numerical",
+            "description": "Toy metric checking if two numbers are equal",
+            "categories": []
+        }
+    ],
+    "tags": {
+        "difficulty": "medium",
+        "category": "math"
+    }
+}

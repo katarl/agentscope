@@ -1,0 +1,15 @@
+## 北京大学校务数据治理体系架构与实施机制综合分析
+
+- 北京大学从战略高度出发，将数据治理视为推动教育数智化转型的基本战略性任务，责成各单位密切合作并引进社会资源，以推动信息数据集成重构、校务数据共享服务、网信资源归口管理等重要任务计划。其核心目标是在有效利用公共信息资源的同时，切实维护师生个人信息权益，努力做到明确数据标准、提升数据质量、推进数据共享、保障数据安全。经过近两年的努力，学校网络信息办公室（网信办）以推进数据共享为信息化工作枢纽，注重管理与技术相协调，加大相关部门协同力度，并同步开展“三位一体”的制度建设、平台建设和机构建设，从而逐步构建了具有北大特色的校务数据治理体系。在制度建设方面，起草并发布了《北京大学校务信息数据管理办法（试行）》和《北京大学校务信息数据共享审批管理规定》，旨在通过制度明确职责、规范流程、落实保障。在机构建设方面，学校成立了“北京大学校务信息数据管理工作小组”，厘定了小组的主要职能和运行方式。该小组由分管网信工作的校领导担任组长，分管保密工作的校领导担任副组长，其办公室（数据办）设在网信办，负责日常运行。在平台建设方面，采用了业界先进的数据4.0工艺平台，解决了数据治理中的技术水平和标准难题；针对管理共享问题，探索构建了“人（X）-事（Y）-时（Z）”三维立体数据互动结构模型，解决了数据共享中的结构和模型问题。目前，校务数据共享平台已集成了人员身份、资产设备、教学科研、学术支撑、行政运行、服务保障六大类，共计超过10亿条校务信息数据，成为学校有史以来规模最大的校务数据集成共享平台。[https://ocac.pku.edu.cn/docs/20250526132404056311.pdf]
+
+- 北京大学的网络信息化（网信）经费投入机制与评价体系是其治理体系的重要支撑。校级网信经费主要来源于“双一流”建设经费，包括日常运维经费和年度项目经费，由计算中心和网信办分别组织申报。而各个二级单位的网信经费来源更为多元，既包括“双一流”建设经费，也包括科研经费和自筹经费，且二级单位的网信经费总体量远超校级网信经费。受“双一流”建设经费的持续支撑，进入新时代以来，北京大学网信治理体系得以重新建构并不断完善，为开展网信投入评估准备了有利条件。这主要体现在两个方面：一是网信治理组织机构不断完善，包括网络安全和信息化委员会（网信委）、网信工作小组、网信办、校务数据小组（及数据办）等机构正常运转；二是中长期发展规划已经明确，《网信事业“十四五”发展规划》为发展提供了蓝图。通过持续的制度建设、机构建设和平台建设，学校逐步构建了具有北大特点的网络安全责任体系、信息化工作机制及校务数据治理模式，为推进数字化、智能化转型夯实了基础架构。[https://ocac.pku.edu.cn/docs/20250526132404056311.pdf]
+
+- 在制度设计与体系变革方面，北京大学网信办自筹备期以来，一直致力于加强其职责领域内的建章立制工作。几年来，相继完成了网络安全、资源管理、校务数据管理等领域规章制度的起草、发布和修订工作，形成了一个较为完整的制度体系。在网络安全领域，2019年出台的《北京大学网络安全管理办法（试行）》统筹了网络技术安全和信息内容安全，划定了网络安全的内容和边界，明确了组织机构的职责分工和权责，建立了一个集防御、监测、响应、处置全流程于一体，覆盖校内各单位、各类人员、各类信息系统的网络安全（含内容）保障制度和责任体系。2020年推出的《北京大学官方新媒体平台日常管理及应急处置规程》则明确了官方新媒体平台的范畴、管理机制和应急流程。2021年修订的《北京大学网站管理办法》（与计算中心协作）进一步明确了各单位的职责，对网站建设、信息发布、日常运行及监督检查等环节进行了规定，旨在规范网站的开发、内容建设、形象建设和信息服务，提高网站的安全保障能力。在资源管理方面，2020年制定的相关制度（文档未完全显示，但暗示存在）也对信息化资源的使用和管理进行了规范。这一系列制度的出台与修订，标志着北京大学的数据治理与网络安全工作已经从分散管理走向了系统化、规范化的制度治理阶段。[https://ocac.pku.edu.cn/docs/20250526132404056311.pdf]
+
+## Work Log
+**Filled Knowledge Gap:** Item 1 - Conduct a thorough extraction and analysis of the Peking University PDF document to systematically gather information about: data governance organizational structure, specific policies and regulations, implementation approaches, challenges and solutions, and performance evaluation mechanisms.
+
+**How it was resolved:** I used the `tavily-extract` tool to extract the full text content from the provided Peking University PDF document URL (`https://ocac.pku.edu.cn/docs/20250526132404056311.pdf`). The tool successfully retrieved a substantial portion of the document's text. I then meticulously analyzed the extracted text to identify and select all snippets directly relevant to the specified categories: organizational structure (e.g., 校务信息数据管理工作小组)， policies and regulations (e.g., 《北京大学校务信息数据管理办法（试行）》)， implementation approaches (e.g., “三位一体”建设、数据4.0平台)， and performance evaluation mechanisms (e.g., 经费投入机制、网信投入评估条件)。 The information was then synthesized into a comprehensive report with direct citations to the source PDF. The `write_text_file` tool was used earlier in the process to save a summary, but the core analysis for this report was performed on the `tavily-extract` output.
+
+## References
+- [PDF] 关于高校数字化转型的制度化思考, [https://ocac.pku.edu.cn/docs/20250526132404056311.pdf]

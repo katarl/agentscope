@@ -1,0 +1,343 @@
+{
+ "ChatResponse": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_response",
+   "module_short": "agentscope.model",
+   "name": "ChatResponse"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatResponse"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatResponse"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils._mixin",
+   "module_short": "agentscope._utils._mixin",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope._utils",
+   "module_short": "agentscope._utils",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DictMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatResponse"
+  }
+ ],
+ "DashScopeChatModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._dashscope_model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_base",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "TextBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TextBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "TextBlock"
+  }
+ ],
+ "ThinkingBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ThinkingBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ThinkingBlock"
+  }
+ ],
+ "ToolUseBlock": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_block",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ToolUseBlock"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "dict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "ToolUseBlock"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "example_model_call": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_reasoning": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_streaming": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "json_schemas": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "os.environ": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "environ"
+  }
+ ],
+ "response": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model._model_response",
+   "module_short": "agentscope.model",
+   "name": "ChatResponse"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatResponse"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatResponse"
+  }
+ ]
+}

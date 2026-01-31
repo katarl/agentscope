@@ -1,0 +1,16 @@
+{
+    "llm": {
+        "qwen-max": 2
+    },
+    "agent": 1,
+    "tool": {
+        "generate_response": 1
+    },
+    "embedding": {},
+    "chat_usage": {
+        "qwen-max": {
+            "input_tokens": 373,
+            "output_tokens": 31
+        }
+    }
+}

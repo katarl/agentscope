@@ -1,0 +1,475 @@
+{
+ "BaseModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  }
+ ],
+ "DashScopeChatModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._dashscope_model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeChatModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model._model_base",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ChatModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.model",
+   "module_short": "agentscope.model",
+   "name": "DashScopeChatModel"
+  }
+ ],
+ "DashScopeMultiAgentFormatter": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._dashscope_formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeMultiAgentFormatter"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._truncated_formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "TruncatedFormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter._formatter_base",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FormatterBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.formatter",
+   "module_short": "agentscope.formatter",
+   "name": "DashScopeMultiAgentFormatter"
+  }
+ ],
+ "Field": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "Field"
+  }
+ ],
+ "JudgeModel": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "__main__",
+   "module_short": "__main__",
+   "name": "JudgeModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic.main",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pydantic",
+   "module_short": "pydantic",
+   "name": "BaseModel"
+  }
+ ],
+ "Msg": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message._message_base",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "Msg"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.message",
+   "module_short": "agentscope.message",
+   "name": "Msg"
+  }
+ ],
+ "MsgHub": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.pipeline._msghub",
+   "module_short": "agentscope.pipeline",
+   "name": "MsgHub"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.pipeline",
+   "module_short": "agentscope.pipeline",
+   "name": "MsgHub"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "MsgHub"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.pipeline",
+   "module_short": "agentscope.pipeline",
+   "name": "MsgHub"
+  }
+ ],
+ "ReActAgent": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent_base",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent._agent_base",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "AgentBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module._state_module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.module",
+   "module_short": "agentscope.module",
+   "name": "StateModule"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "StateModule"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  }
+ ],
+ "alice": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "bob": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  }
+ ],
+ "create_solver_agent": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "moderator": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent._react_agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.agent",
+   "module_short": "agentscope.agent",
+   "name": "ReActAgent"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "ReActAgent"
+  }
+ ],
+ "os.environ": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "_Environ"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "environ"
+  }
+ ],
+ "run_multiagent_debate": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "topic": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "str"
+  }
+ ]
+}

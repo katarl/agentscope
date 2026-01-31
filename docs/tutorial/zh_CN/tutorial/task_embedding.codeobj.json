@@ -1,0 +1,186 @@
+{
+ "DashScopeTextEmbedding": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._dashscope_embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "DashScopeTextEmbedding"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._embedding_base",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "EmbeddingModelBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "DashScopeTextEmbedding"
+  }
+ ],
+ "FileEmbeddingCache": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._file_cache",
+   "module_short": "agentscope.embedding",
+   "name": "FileEmbeddingCache"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "FileEmbeddingCache"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "FileEmbeddingCache"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding._cache_base",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingCacheBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "EmbeddingCacheBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "agentscope",
+   "module_short": "agentscope",
+   "name": "EmbeddingCacheBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "agentscope.embedding",
+   "module_short": "agentscope.embedding",
+   "name": "FileEmbeddingCache"
+  }
+ ],
+ "asyncio.get_event_loop": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "get_event_loop"
+  }
+ ],
+ "asyncio.run": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "asyncio",
+   "module_short": "asyncio",
+   "name": "run"
+  }
+ ],
+ "example_dashscope_embedding": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "example_embedding_cache": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "os.getenv": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "getenv"
+  }
+ ],
+ "tempfile.mkdtemp": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "tempfile",
+   "module_short": "tempfile",
+   "name": "mkdtemp"
+  }
+ ]
+}

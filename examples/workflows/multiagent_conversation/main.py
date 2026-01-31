@@ -4,12 +4,14 @@ pipeline in AgentScope."""
 import asyncio
 import os
 
+from dotenv import load_dotenv
 from agentscope.agent import ReActAgent
 from agentscope.formatter import DashScopeMultiAgentFormatter
 from agentscope.message import Msg
 from agentscope.model import DashScopeChatModel
 from agentscope.pipeline import MsgHub, sequential_pipeline
 
+load_dotenv()
 
 def create_participant_agent(
     name: str,
@@ -26,7 +28,7 @@ def create_participant_agent(
         ),
         model=DashScopeChatModel(
             model_name="qwen-max",
-            api_key=os.environ["DASHSCOPE_API_KEY"],
+            api_key=os.environ.get("DASHSCOPE_API_KEY"),
             stream=True,
         ),
         # Use multiagent formatter because the multiple entities will
